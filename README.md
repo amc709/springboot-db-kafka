@@ -1,7 +1,7 @@
-# SPRINGBOOT WITH KAFKA
+# KAFKA PRODUCER WITH SPRINGBOOT
 
 #### Summary
-This project is a sample implementation of messaging via Kafka in Spring Boot. The main endpoint allows the message (passed as a query string) to be published to a topic. A separate project, kafka-consumer-demo, serves as the consumer of the published message.
+This project is a sample implementation of messaging via Kafka in Spring Boot. The main endpoint allows the message (passed as a query string) to be published to a topic. A separate project/repository, kafka-consumer-demo, serves as the consumer of the published message.
 
 #### Tools used
 - Docker
