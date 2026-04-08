@@ -21,6 +21,8 @@ public class EventController {
 	@PutMapping("/publish")
 	public ResponseEntity<?> publishMessage(@RequestParam String message) {
 		try {
+			publisher.log("Publishing message ....");
+
 			this.publisher.sendMessageToTopic(message);
 			return ResponseEntity.ok("Message published");
 		} catch (Exception e) {

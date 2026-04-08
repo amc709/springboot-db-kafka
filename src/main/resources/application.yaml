@@ -9,4 +9,8 @@ spring:
     
 server:
   port: 8082
+  
+log:
+  base:
+    url: http://localhost:8071
     
